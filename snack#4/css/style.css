@@ -1,0 +1,35 @@
+* {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+}
+
+body {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      font-family: 'Abril Fatface', cursive;
+      font-size: 2em;
+      color: #ffffff;
+      text-shadow: 2px 2px #6c6c7a;
+      background-image: linear-gradient(to bottom left, #09AAA3, #091EAA);
+}
+
+ul {
+      text-align: center;
+      list-style: none;
+}
+ul li {
+      padding: 10px 0;
+      margin: 10px 0;
+      opacity: 0.5;
+}
+ul li:hover {
+      opacity: 1;
+      transition: 0.5s;
+}
+ul li:nth-of-type(odd) {
+      text-decoration: line-through;
+}
