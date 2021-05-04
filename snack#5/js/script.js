@@ -16,4 +16,11 @@ for (i = 0; i < 6; i++) {
       }
 }
 
-console.log(oddList);
+if (oddList.length == 0) {
+      document.getElementById("result").innerHTML = "You typed even numbers only.."
+} else {
+      document.getElementById("result").innerHTML = "Here are the odd numbers you typed: " ;
+      for (i = 0; i < oddList.length; i++) {
+            document.getElementById("odd-numbers").innerHTML += "<li>" + oddList[i] + "</li>";
+      }     
+}

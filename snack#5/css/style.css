@@ -1,0 +1,30 @@
+* {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+}
+
+body {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Original Surfer', cursive;
+      font-size: 60px;
+      color: #ffffff;
+      background-image: linear-gradient(to top right, #051937, #A8EB12);
+}
+
+ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      list-style: none;
+}
+ul li {
+      display: inline-block;
+      padding: 0 10px;
+      margin:  0 10px;
+      border-radius: 50%;
+      background-color: rgba(0,0,0,0.3);
+}
