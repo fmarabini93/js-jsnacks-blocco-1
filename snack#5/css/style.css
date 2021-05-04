@@ -12,6 +12,7 @@ body {
       font-family: 'Original Surfer', cursive;
       font-size: 60px;
       color: #ffffff;
+      text-shadow: 2px 2px #3b3b3b;
       background-image: linear-gradient(to top right, #051937, #A8EB12);
 }
 
